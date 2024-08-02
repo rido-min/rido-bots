@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "azureBotId": {
+      "value": "Rido-Echo-Bot"
+    },
+    "azureBotSku": {
+      "value": "S1"
+    },
+    "azureBotRegion": {
+      "value": "global"
+    },
+    "botEndpoint": {
+      "value": "https://rido-echobot-dotnet.azurewebsites.net/api/messages"
+    },
+    "appType": {
+      "value": "MultiTenant"
+    },
+    "appId": {
+      "value": "a4c36ed8-6084-459d-bdb5-9f4ab622fdf4"
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    },
+    "tenantId": {
+      "value": ""
+    }
+  }
+}

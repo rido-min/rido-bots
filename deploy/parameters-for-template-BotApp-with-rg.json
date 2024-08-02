@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appServiceName": {
+      "value": "rido-echo-zero"
+    },
+    "existingAppServicePlanName": {
+      "value": "rido-bots-linux-plan"
+    },
+    "existingAppServicePlanLocation": {
+      "value": "East US 2"
+    },
+    "newAppServicePlanName": {
+      "value": ""
+    },
+    "newAppServicePlanLocation": {
+      "value": ""
+    },
+    "newAppServicePlanSku": {
+      "value": {
+        "name": "S1",
+        "tier": "Standard",
+        "size": "S1",
+        "family": "S",
+        "capacity": 1
+      }
+    },
+    "appType": {
+      "value": "MultiTenant"
+    },
+    "appId": {
+      "value": "a4c36ed8-6084-459d-bdb5-9f4ab622fdf4"
+    },
+    "appSecret": {
+      "value": ""
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    },
+    "tenantId": {
+      "value": ""
+    }
+  }
+}
