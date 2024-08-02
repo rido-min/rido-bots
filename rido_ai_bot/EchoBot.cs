@@ -2,7 +2,7 @@
 using Microsoft.Bot.Schema;
 using Newtonsoft.Json;
 
-namespace rido_webapp_zero;
+namespace rido_ai_bot;
 
 public class EchoBot : ActivityHandler
 {

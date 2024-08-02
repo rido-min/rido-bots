@@ -3,7 +3,7 @@ using Microsoft.Bot.Schema;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
 
-namespace rido_webapp_zero;
+namespace rido_ai_bot;
 
 public class SKBot(IChatCompletionService chat) : ActivityHandler
 {

@@ -3,7 +3,7 @@ using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Bot.Builder.TraceExtensions;
 using Microsoft.Bot.Connector.Authentication;
 
-namespace rido_webapp_zero;
+namespace rido_ai_bot;
 
 public class InstrumentedBotAdapter : CloudAdapter
 {

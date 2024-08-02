@@ -4,9 +4,9 @@ using Microsoft.Bot.Builder.Integration.ApplicationInsights.Core;
 using Microsoft.Bot.Builder.Integration.AspNet.Core;
 
 using Microsoft.Bot.Builder;
-using rido_webapp_zero;
 using Microsoft.Bot.Connector.Authentication;
 using Microsoft.SemanticKernel;
+using rido_ai_bot;
 
 var builder = WebApplication.CreateBuilder(args);
 
