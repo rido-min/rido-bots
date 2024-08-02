@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.5.002.0
+VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rido_ai_bot", "rido_ai_bot\rido_ai_bot.csproj", "{6A53E6AB-9E83-4F26-984A-F9CB92DDE3C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rido_ai_bot", "rido_ai_bot\rido_ai_bot.csproj", "{A7C27539-1383-49A0-9343-35E924DC2790}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A53E6AB-9E83-4F26-984A-F9CB92DDE3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A53E6AB-9E83-4F26-984A-F9CB92DDE3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A53E6AB-9E83-4F26-984A-F9CB92DDE3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A53E6AB-9E83-4F26-984A-F9CB92DDE3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C27539-1383-49A0-9343-35E924DC2790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C27539-1383-49A0-9343-35E924DC2790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C27539-1383-49A0-9343-35E924DC2790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C27539-1383-49A0-9343-35E924DC2790}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {70686826-7400-4800-AC1A-C57FC1DE6372}
+		SolutionGuid = {B644F1D8-CF73-4FA3-93C6-1CD4ED705173}
 	EndGlobalSection
 EndGlobal
