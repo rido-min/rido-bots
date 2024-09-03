@@ -7,6 +7,7 @@ using Microsoft.Bot.Builder;
 using Microsoft.Bot.Connector.Authentication;
 using Microsoft.SemanticKernel;
 using rido_ai_bot;
+using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
