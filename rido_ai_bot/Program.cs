@@ -8,6 +8,7 @@ using Microsoft.Bot.Connector.Authentication;
 using Microsoft.SemanticKernel;
 using rido_ai_bot;
 using Azure.Identity;
+using System.Diagnostics;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,8 +33,17 @@ app.MapGet("/hello", () =>
 {
     string msg = $"Hello World! from {Environment.MachineName} with version {ThisAssembly.NuGetPackageVersion}  at {DateTime.UtcNow.ToString("O")}";
     Console.WriteLine(msg);
+    Trace.TraceInformation(msg);
     return msg;
 });
+
+//app.MapGet("/settings", () =>
+//{
+//    string msg = $"CurrentSettings: MicrosoftAppType='{Environment.GetEnvironmentVariable("MicrosoftAppType")}' MicrosoftAppId='{Environment.GetEnvironmentVariable("MicrosoftAppId")}' MicrosoftAppPassword='{Environment.GetEnvironmentVariable("MicrosoftAppPassword")!.Substring(0,5)}'";
+//    Console.WriteLine(msg);
+//    Trace.TraceInformation(msg);
+//    return msg;
+//});
 
 
 app.MapControllers();
