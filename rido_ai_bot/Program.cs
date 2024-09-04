@@ -22,7 +22,7 @@ builder.Services
     .AddSingleton<TelemetryLoggerMiddleware>()
     .AddSingleton<BotFrameworkAuthentication, ConfigurationBotFrameworkAuthentication>()
     .AddSingleton<IBotFrameworkHttpAdapter, InstrumentedBotAdapter>()
-    .AddAzureOpenAIChatCompletion("gpt-35-turbo", builder.Configuration["AOAI_ENDPOINT"]!.ToString(), builder.Configuration["AOAI_APIKEY"]!.ToString())
+    .AddAzureOpenAIChatCompletion("gpt-4o", builder.Configuration["AOAI_ENDPOINT"]!.ToString(), builder.Configuration["AOAI_APIKEY"]!.ToString())
     .AddTransient<IBot, SKBot>();
 
 var app = builder.Build();
