@@ -27,7 +27,7 @@ public class SKBot(IChatCompletionService chat, IWebHostEnvironment env) : Activ
 
     protected override async Task OnMembersAddedAsync(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken)
     {
-        var welcomeText = $"Hello and welcome! SKBot Version {ThisAssembly.NuGetPackageVersion}";
+        var welcomeText = $"Hello and welcome! SKBot Version {ThisAssembly.NuGetPackageVersion} running @ {Environment.MachineName} ";
 
         if (env.IsProduction())
         {
