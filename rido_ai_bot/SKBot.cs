@@ -2,7 +2,6 @@
 using Microsoft.Bot.Schema;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
-using System.Diagnostics.Metrics;
 
 namespace rido_ai_bot;
 
@@ -33,7 +32,7 @@ public class SKBot(IChatCompletionService chat, IWebHostEnvironment env) : Activ
         if (env.IsProduction())
         {
             history.AddSystemMessage("You are an experienced Bot Framework developer");
-            welcomeText += "AI enabled";
+            welcomeText += " AI enabled";
         }
 
         foreach (var member in membersAdded)
